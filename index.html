@@ -318,11 +318,18 @@
     </div>
 
     <script>
+        // Force the browser to scroll back to the absolute top of the page on load/refresh
+        window.onload = function() {
+            setTimeout(function() {
+                window.scrollTo(0, 0);
+            }, 10);
+        };
+
         function openModal(id) { document.getElementById(id).style.display = "block"; }
         function closeModal(id) { document.getElementById(id).style.display = "none"; }
         window.onclick = function(event) { if (event.target.className === 'modal') { event.target.style.display = "none"; } }
     </script>
 
 </body>
-                                                                                                                                                                          </html>
+                </html>
                 
