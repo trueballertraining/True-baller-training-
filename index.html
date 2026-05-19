@@ -86,6 +86,20 @@
         }
         .book-now-btn:hover { background-color: #e65100; transform: translateY(-2px); }
 
+        /* Training Dates Banner */
+        .training-dates {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.2rem;
+            color: #fff;
+            background: rgba(245, 124, 0, 0.2);
+            border: 1px dashed #f57c00;
+            padding: 8px 20px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
         .liability-btn {
             background-color: transparent;
             color: #fff;
@@ -140,7 +154,7 @@
             position: fixed;
             z-index: 2000;
             left: 0;
-top: 0;
+            top: 0;
             width: 100%;
             height: 100%;
             background-color: rgba(0,0,0,0.9);
@@ -179,7 +193,11 @@ top: 0;
     <section class="hero">
         <h1 class="target-heading">Youth Training & Development</h1>
         <a href="https://form.jotform.com/261385004832049" class="book-now-btn" target="_blank">Schedule Group Training</a>
-        <br>
+        
+        <div class="training-dates">
+            May 29th dribbling, May 30th slashing, May 31st shooting
+        </div>
+
         <a href="https://form.jotform.com/261385101051040" class="liability-btn" target="_blank">Liability Release Form</a>
         <div class="age-groups">Middle School (11-13) | High School (14-18)</div>
         <p>Developing Elite Athletes. Building Multi-Industry Professionals.</p>
@@ -209,7 +227,7 @@ top: 0;
         <div class="container">
             <h2 class="section-title">Lead Trainer: Nixon Bernard</h2>
             <div class="bio-content">
-                <img src="nixon-bernard.jpg" alt="Nixon Bernard" class="profile-pic">
+                <img src="1770995393864.png" alt="Nixon Bernard" class="profile-pic">
                 <p>Nixon Bernard brings the intensity of professional basketball and the precision of the technical world to the court. As a former <strong>NBA G League prospect</strong>, Nixon understands the requirements to reach the highest levels of the game.</p>
                 <p>Nixon is a unique "Triple Threat" professional. He holds a <strong>Bachelors degree in Accounting and Real Estate</strong> and has a comprehensive <strong>background in Engineering</strong>, allowing him to train athletes with an analytical, systems-based approach.</p>
             </div>
@@ -278,7 +296,7 @@ top: 0;
         <div class="modal-content">
             <span class="close-modal" onclick="closeModal('termsModal')">&times;</span>
             <h2>Terms & Conditions</h2>
-            <p><strong>1. Group Bookings:</strong> Sessions require a minimum of 10 participants. Parents are responsible for assembling groups.</p>
+            <p><strong>1. Group Bookings:</strong> Sessions require a minimum of 5 participants per group training session. Parents are responsible for assembling groups.</p>
             <p><strong>2. Liability:</strong> Basketball is a contact sport. By booking, you acknowledge the inherent risks. A signed JotForm liability waiver is mandatory before training begins.</p>
             <p><strong>3. Payments:</strong> The $25 fee is per athlete. Payments are final once the session begins.</p>
             <p><strong>4. Brand Protection:</strong> True Baller Training and its curriculum are proprietary assets.</p>
